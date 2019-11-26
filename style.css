@@ -1,5 +1,22 @@
-h2 {
-	color: purple;
+h1 {
 	text-align: center;
-	border: dashed; color: purple;
+	border: solid; color: darkred;
+	font-family: sans-serif;
+}
+
+.webtext {
+	text-align: center; 
+
+}
+
+ul {
+	list-style-type: none;
+	font-size: medium;
+	color: red;
+}
+
+.footer {
+	text-align: center;
+	font-size: medium;
+	border: dashed; color: darkred;
 }
