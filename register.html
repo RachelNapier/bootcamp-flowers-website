@@ -2,11 +2,13 @@
 	<html>
 		<head>
 			<title>Register</title>
+			<link rel="stylesheet" type="text/css" href="style2.css">
 		</head>
 		<form>
 			<body style="background-color: #ffb6c1">
 				<!-- Use GET, not POST -->
 				<a href="index.GET">
+			<div id="div1">
 				First Name:<br>
 					<input type="text" name="firstname"><br>
 				Last Name:<br>
@@ -29,12 +31,14 @@
 						<option value="summer">Summer</option>
 						<option value="fall">Fall</option>
 					</select><br>
+		
 				Email:<br>
 					<input type="email" required><br>
 				Password:<br>
 					<input type="password" name="password" minlength="8" required><br>
 					<input type="submit" value="Register">
 					<input type="reset">
+			</div>
 			</body>
 		</form>
 	</html>
