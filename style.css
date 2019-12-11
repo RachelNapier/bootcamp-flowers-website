@@ -54,3 +54,8 @@ ul {
 	border-top: dashed; color: rgb(160, 15, 15);
 	border-bottom: dashed; color: rgb(160, 15, 15);
 }
+
+@media all and (max-width: 400px) {
+	h1 {
+	  color: rgb(62, 9, 148);
+	}
