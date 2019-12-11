@@ -34,6 +34,9 @@ ul {
 	font-size: 2em;
 	color: rgb(138, 67, 148);
 }
+html {
+	font-size: 100%
+}
 
 .div1 {
 	list-style-type: none;
