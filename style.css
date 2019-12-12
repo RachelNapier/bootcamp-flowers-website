@@ -1,64 +1,70 @@
 h1 {
-	text-align: center;
-	border-bottom:  2px solid; color: rgb(160, 15, 15);
-	font-family: 'Oswald', sans-serif;
-	font-size: 50px;
-	font-style: italic;
-	font-weight: 200;
+  text-align: center;
+  border-bottom: 2px solid;
+  color: rgb(160, 15, 15);
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 200;
 }
-
+	
 body {
-	background: linear-gradient(90deg, #CCFFFF, #FFCCCC);
+  background: linear-gradient(90deg, #ccffff, #ffcccc);
 }
 
 .webtext {
-	text-align: center;
-
+  text-align: center;
 }
 
 img {
-	width: 350px;
-	height: 350px;
-	margin: 10px;
-	transition: all 1s;
-	cursor: pointer;
+  max-width: 25%;
+  max-height: 35%;
+  margin: 10px;
+  transition: all 1s;
+  cursor: pointer;
 }
 
 img:hover {
-	transform: scale(1.1);
-}
-ul {
-	list-style-type: none;
-	font-family: 'Oswald', sans-serif;
-	font-style: bold;
-	font-size: 2em;
-	color: rgb(138, 67, 148);
-}
-html {
-	font-size: 100%
+  transform: scale(1.1);
 }
 
-.div1 {
-	list-style-type: none;
-	font-style: italic;
-	font-size: 100%;
-	color: rgb(160, 15, 15);
-}
-
-.container {
-	display: flex;
-	flex-direction: column;
-
-}
-
-.footer {
-	text-align: center;
-	font-size: medium;
-	border-top: dashed; color: rgb(160, 15, 15);
-	border-bottom: dashed; color: rgb(160, 15, 15);
-}
-
-@media all and (max-width: 400px) {
+@media (max-width: 500px) {
 	h1 {
 	  color: rgb(62, 9, 148);
 	}
+}
+
+ul {
+  list-style-type: none;
+  font-family: "Oswald", sans-serif;
+  font-style: bold;
+  font-size: 2em;
+  color: rgb(138, 67, 148);
+}
+
+html {
+  font-size: 100%;
+}
+
+.div1 {
+  list-style-type: none;
+  font-style: italic;
+  font-size: 100%;
+  color: rgb(160, 15, 15);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  text-align: center;
+  font-size: medium;
+  border-top: dashed;
+  color: rgb(160, 15, 15);
+  border-bottom: dashed;
+  color: rgb(160, 15, 15);
+}
+
+}

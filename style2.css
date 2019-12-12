@@ -1,5 +1,5 @@
 html {
-	font-size: 100%
+  font-size: 100%;
 }
 body {
   background: linear-gradient(90deg, #ccffff, #ffcccc);
@@ -11,10 +11,4 @@ h3 {
 
 #div1 {
   text-align: center;
-}
-
-@media all and (max-width: 400px) {
-  h1 {
-    color: rgb(62, 9, 148);
-  }
 }
