@@ -28,6 +28,12 @@ img:hover {
   transform: scale(1.1);
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media (max-width: 500px) {
   h1 {
     color: rgb(62, 9, 148);
